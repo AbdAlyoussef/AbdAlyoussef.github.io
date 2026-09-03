@@ -61,6 +61,9 @@ export const metadata: Metadata = {
   applicationName: 'Abdul Rahman Alyoussef — Portfolio',
   authors: [{ name: 'Abdul Rahman Alyoussef', url: siteUrl }],
   creator: 'Abdul Rahman Alyoussef',
+  verification: {
+    google: 'YVU8xlMo3Z7oyTyMR7P1sXPjyZQEJF2yn82UFubHAhE',
+  },
   keywords: [
     'Abdul Rahman Alyoussef',
     'Abdulrahman Alyoussef',
