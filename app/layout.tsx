@@ -101,14 +101,29 @@ export const metadata: Metadata = {
     siteName: 'Abdul Rahman Alyoussef',
     locale: 'en_US',
     url: '/',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Abdul Rahman Alyoussef — AI Engineer & Researcher' }],
+    images: [
+      {
+        url: '/og.png',
+        width: 1200,
+        height: 630,
+        alt: 'Abdul Rahman Alyoussef — AI Researcher & Engineer',
+        type: 'image/png',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Abdul Rahman Alyoussef — AI Engineer & Researcher',
     description:
       'AI engineering and research across agentic AI, language models, reinforcement learning, representation learning, and machine learning.',
-    images: ['/og.png'],
+    images: [
+      {
+        url: '/og.png',
+        width: 1200,
+        height: 630,
+        alt: 'Abdul Rahman Alyoussef — AI Researcher & Engineer',
+      },
+    ],
   },
 };
 
